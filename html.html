@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Woxsen unversity Umberalla</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+        <img url="./img/shape.png" alt="woxsen unversity" class="shape" />
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="Woxsen_University_Logo-removebg-preview.png "/>
+              <h3><b>Hang & Chill WeekEnd</b></h3>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="html.html"><ui>Home</ui></a></li>
+                <li><a href="campus_rules.html">  campus Rule</a></li>
+                <li><a href="#">Refer</a></li>
+                <li><a href="fill a form.php" class="btn">Fill Outing Form</a></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>An Umberalla,</h1>
+                <h1>Outing for Students.</h1>
+              </div>
+              <p class="text">
+              To help you enjoy and manage your weekends and unforeseen crises, we're excited to present two terrific excursion choices.<br>
+              
+                Our first goal is keeping you secure. We have devised a procedure for emergency excursions in the event of unanticipated crises or urgent situations.
+                <br>
+                You ought to check out our new weekend excursions! Come join us for a variety of fun events on Saturdays and Sundays that will help you unwind, interact with other students,
+               and discover your surroundings.
+              </p>
+              <div class="links">
+                <a href="#">B.Tech</a>
+                <a href="#">BBA</a>
+                <a href="#">B.des</a>
+                <a href="#" class="btn">Get started</a>
+              </div>
+            </div>
+            
+
+            <div class="right">
+              <img src="woxen-ed-148.jpg" alt="Person Image" class="person" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+          <h1>contact us:<br></h1>
+          CSO campus:<br>
+          Bridge:<br>
+          Emergency:<br>
+        &copy; 2023 Bookmarking Example. All rights reserved.
+      </div>
+    </main>
+
+    <!-- JavaScript Files -->
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./app.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        main {
+            position: relative;
+        }
+
+        .big-wrapper {
+            position: relative;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #1b1b1b;
+            color: white;
+            padding: 1em 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            position: relative;
+            z-index: 3;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .logo h3 {
+            display: inline;
+            font-size: 1.5em;
+            vertical-align: middle;
+            color: #fff;
+        }
+
+        .links ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .links li {
+            margin-left: 20px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            transition: color 0.3s ease;
+        }
+
+        .links a:hover {
+            color: #4CAF50;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            margin: 20px 0;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .overlay {
+            display: none;
+        }
+
+        .hamburger-menu {
+            display: none;
+            cursor: pointer;
+            font-size: 1.5em;
+            color: #fff;
+        }
+
+        .bar {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+
+        .showcase-area {
+            background-color: #fff;
+            padding: 40px 0;
+        }
+
+        .big-title h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .text {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .links a {
+            display: block;
+            margin: 10px 0;
+            font-size: 1em;
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .links a:hover {
+            color: #4CAF50;
+        }
+
+        .links .btn {
+            margin-top: 20px;
+        }
+
+        .right {
+            width: 50%;
+            float: left;
+        }
+
+        .person {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .bottom-area {
+            background-color: #1b1b1b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .toggle-btn {
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            color: white;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .toggle-btn:hover {
+            color: #4CAF50;
+        }
+
+        .footer {
+            background-color: #1b1b1b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+  </body>
+</html>

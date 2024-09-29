@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Number Input</title>
+</head>
+<body>
+
+<h2>Enter a number:</h2>
+
+<input type="number" id="firstInput">
+<button onclick="checkFirstInput()">Check</button>
+
+<p id="firstResult"></p>
+
+<div id="secondInputDiv" style="display: none;">
+    <h2>Second Text Box (Visible when first input is 5)</h2>
+    <input type="number" id="secondInput" min="0" max="5">
+</div>
+
+<script>
+function checkFirstInput() {
+    var firstInput = document.getElementById("firstInput").value;
+    var firstResultElement = document.getElementById("firstResult");
+    var secondInputDiv = document.getElementById("secondInputDiv");
+
+    if (firstInput >= 0 && firstInput <= 10) {
+        firstResultElement.textContent = "Valid input!";
+        if (firstInput == 5) {
+            secondInputDiv.style.display = "block";
+        } else {
+            secondInputDiv.style.display = "none";
+        }
+    } else {
+        firstResultElement.textContent = "Invalid input. Please enter a number between 0 and 10.";
+        secondInputDiv.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
